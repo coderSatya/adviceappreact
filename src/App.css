@@ -1,0 +1,39 @@
+*{
+  margin: 0;
+  padding:0;
+ 
+  box-sizing: border-box;
+}
+.app{
+     width:100vw;
+     height:100vh; 
+     background-image:url("sun.jpg");
+     background-size: cover;
+     display:flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+      
+}
+.card{
+  width:30vw;
+  height:30vh;
+  background-color:whitesmoke;
+  border-radius: 25px;
+  box-shadow:2px 2px 5px 10px teal;
+}
+.heading{
+  padding:30px;
+}
+.button{
+  font-size: 25px;
+  padding:10px;
+  background-color: cornflowerblue;
+  border-radius: 15px;
+  cursor: pointer;
+  text-align: center;
+  
+
+  
+  
+}
